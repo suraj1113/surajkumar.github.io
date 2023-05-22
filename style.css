@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+.main{
+    padding: 4.4rem 5rem 6rem;
+}
+
+.main svg {
+  width: 500px;
+  height: 500px;
+  margin-left: 4rem;
+  position:absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+
+svg .cls-1 {
+stroke: black;
+stroke-dasharray: 400;
+stroke-dashoffset: 400;
+animation: animate 3s linear infinite;
+ }
+
+@keyframes animate {
+     to {
+            stroke-dashoffset: 0;
+            fill:black;
+        }
+}
+.intro {
+    margin-top: 16rem;
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+.intro strong {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+}
+
+.project{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    
+}
+.project strong{
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+}
+
+.contact{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+.contact strong{
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+}
+.contact ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+.no-border li{
+    border-bottom: none;
+    padding: 0;
+}
+
+ul li{
+    list-style-type: none;
+    font-size: 1.6rem;
+}
+ul li a{
+    background: #fff;
+    display: block;
+    position: relative;
+    z-index: 1;
+    border-top: 1px solid #000;
+    margin-top: -1px;
+    text-decoration: none;
+    color: black;
+}
+.link{
+    display: inline-block;
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.school {
+    display: block;
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #000;
+    margin-top: .5rem;
+}
+
+.school .years {
+    font-size: 1rem;
+    margin-bottom: 3px;
+}
+
+.school a {
+    border-bottom: 1px dashed #000;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor:pointer;
+}
+.school h3 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+ul li, ul li a {
+    padding: 1rem 0;
+    border-bottom: 1px solid #000;
+}
+.goodbye{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
